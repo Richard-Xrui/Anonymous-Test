@@ -58,7 +58,19 @@ The homepage shows only the certified v18 release coverage: 800 task families ac
 
 ## Citation
 
-The manuscript is under review. A citable arXiv entry will be listed here once the preprint is public.
+```bibtex
+@misc{zhao2026comembench,
+  title         = {CoMemBench: Benchmarking Collaborative Memory Boundaries
+                   across Multi-Agent Workflow Topologies},
+  author        = {Sen Zhao and Ruiqi Kong and Zuyu Zhang and Lifeng Shen and
+                   Xinyu He and Ding Zou and Xu Zhang and Qinghua Zhang},
+  year          = {2026},
+  eprint        = {2609.32192},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.AI},
+  url           = {https://arxiv.org/abs/2609.32192}
+}
+```
 
 ## License
 
