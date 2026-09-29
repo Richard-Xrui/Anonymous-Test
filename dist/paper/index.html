@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>CoMemBench manuscript &middot; arXiv</title>
+<link rel="canonical" href="https://comembench.world/paper/"/>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>tailwind.config = { theme: { extend: { fontFamily: { display: ['"Noto Serif SC"','serif'], sans: ['Inter','sans-serif'], mono: ['"JetBrains Mono"','monospace'] }, colors: { orange: '#FB8147', ink: '#1F2329', dim: '#646A73' } } } }</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Noto+Serif+SC:wght@600;700&display=swap" rel="stylesheet"/>
+<style>body{background:#FCFAF8}</style>
+</head>
+<body class="text-ink font-sans antialiased">
+<main class="mx-auto max-w-3xl px-6 py-20">
+  <div class="font-mono text-xs text-orange uppercase tracking-[.28em] mb-4">Manuscript</div>
+  <h1 class="font-display text-3xl md:text-4xl font-bold leading-snug">CoMemBench: Benchmarking Collaborative Memory Boundaries across Multi-Agent Workflow Topologies</h1>
+  <p class="mt-6 text-dim leading-relaxed text-[15px]">Multi-agent workflows require task-relevant information to be shared across agents, while irrelevant, stale, unverified, or incompatible information must remain isolated. We call this task-conditioned scope of information a collaborative memory boundary. Workflow topology determines which intermediate artifacts are applicable to which downstream workers and when they cease to be valid, thereby providing a structural stress dimension for sharing and isolation. Existing memory benchmarks primarily evaluate retention and retrieval, whereas multi-agent benchmarks emphasize coordination and end-to-end completion, leaving topology-conditioned memory boundaries largely unmeasured. We introduce CoMemBench, an execution-grounded benchmark for collaborative memory sharing and isolation across multi-agent workflow topologies. It constructs 800 composite workflows across four domains from source-grounded dependency graphs, with node-local specifications, verifiable artifact handoffs, native evaluators, and matched isolation challenges. CoMemBench measures workflow completion, verified node progress, required-handoff reliability, isolation robustness, and token cost. Experiments reveal a sharing&ndash;isolation trade-off: broader context improves information availability but can weaken isolation, while system rankings shift across topologies and artifact violations.</p>
+  <div class="mt-9 flex flex-wrap gap-3">
+    <a href="https://arxiv.org/abs/2609.32192" target="_blank" rel="noopener" class="rounded-full bg-black px-7 py-3.5 text-white text-sm font-semibold hover:bg-orange transition-colors duration-300">Read on arXiv &middot; 2609.32192</a>
+    <a href="../" class="rounded-full border border-warmborder px-7 py-3.5 text-sm font-semibold hover:border-orange hover:text-orange transition">Back to the benchmark</a>
+  </div>
+</main>
+</body>
+</html>
